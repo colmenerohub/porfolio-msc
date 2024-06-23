@@ -15,6 +15,6 @@
 
 ## 🫂 Contribuidores
 
-<a href="https://github.com/midudev/porfolio.dev/graphs/contributors">
+<a href="https://github.com/midudev">
   midudev
 </a>
