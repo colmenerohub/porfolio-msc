@@ -1,0 +1,38 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCIE = [
+  {
+    date: "Actualmente",
+    title: "Freelance",
+    company: "Brodevs",
+    description:
+      "Desarrollo aplicaciones web y móviles junto a mi hermano Pablo, ofreciendo soluciones de digitalización y adaptándonos a las necesidades específicas de nuestros clientes.",
+    //link: "https://twitch.tv/midudev",
+  },
+  {
+    date: "2024",
+    title: "Software developer",
+    company: "Seidor",
+    description:
+      "Participo en la codificación o soporte de numerosos proyectos, principalmente desarrollados con React y Magnolia, para empresas como ISDIN o Cantabria Labs.",
+    //link: "https://twitch.tv/midudev",
+  },
+  {
+    date: "2022-2024",
+    title: "Junior developer",
+    company: "Juan XXIII",
+    description:
+      "Formación profesional en desarrollo de aplicaciones web, donde realicé incontables proyectos, entre ellos, gestores de contenido para todo tipo de negocios, landing pages, SPAs, aplicaciones móviles...",
+  },
+];
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>
