@@ -19,6 +19,11 @@ const { description, title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/mario.webp" />
+    <meta property="og:url" content="https://porfolio-msc.vercel.app" />
+    <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="/mario.ico" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
